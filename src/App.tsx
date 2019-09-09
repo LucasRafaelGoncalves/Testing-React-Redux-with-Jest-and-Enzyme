@@ -1,10 +1,12 @@
 import React from 'react'
-import './App.css'
+import './App.scss'
+
+import Header from './components/header'
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      
+      <Header />
     </div>
   )
 }
